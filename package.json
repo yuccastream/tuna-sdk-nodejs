@@ -1,0 +1,34 @@
+{
+  "name": "@tuna.am/sdk",
+  "version": "0.1.0",
+  "description": "Open tuna.am tunnels from Node.js code",
+  "license": "MIT",
+  "homepage": "https://tuna.am",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuccastream/tuna-sdk-nodejs.git"
+  },
+  "keywords": [
+    "tuna",
+    "tunnel",
+    "webhook",
+    "localhost"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "ssh2": "^1.17.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "examples/"
+  ]
+}
