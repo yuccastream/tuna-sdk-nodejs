@@ -1,5 +1,5 @@
 {
-  "name": "@tuna.am/sdk",
+  "name": "@tuna-am/sdk",
   "version": "0.1.0",
   "description": "Open tuna.am tunnels from Node.js code",
   "license": "MIT",

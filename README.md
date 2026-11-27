@@ -15,11 +15,11 @@ The API is not stable yet: it may change before v1.
 ## Install
 
 ```shell
-npm install @tuna.am/sdk
+npm install @tuna-am/sdk
 ```
 
 Requires Node.js 18 or later. TypeScript types are included. The examples
-below are ES modules; `require('@tuna.am/sdk')` works too.
+below are ES modules; `require('@tuna-am/sdk')` works too.
 
 ## Authentication
 
@@ -31,7 +31,7 @@ Create an API key with the `tunnels:connect` scope at
 
 ```js
 import http from 'node:http';
-import tuna from '@tuna.am/sdk';
+import tuna from '@tuna-am/sdk';
 
 const server = http.createServer((req, res) => res.end('hello\n'));
 const tunnel = tuna.listen({ protocol: 'http' });
